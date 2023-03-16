@@ -1,8 +1,8 @@
 FROM node:16 AS build
 
-RUN mkdir -p /usr/src/app
+RUN mkdir -p /usr/src/my-store
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/my-store
 
 ARG NODE_ENV
 ARG DATABASE_URL
