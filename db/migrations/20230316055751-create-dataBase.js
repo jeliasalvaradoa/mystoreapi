@@ -5,7 +5,7 @@ const { CUSTOMER_TABLE, CustomerSchema } = require('./../models/customer.model')
 const { CATEGORY_TABLE, CategorySchema } = require('./../models/category.model')
 const { PRODUCT_TABLE, ProductSchema } = require('./../models/product.model')
 const { ORDER_TABLE } = require('./../models/order.model')
-const { OrderProductSchema, ORDER_PRODUCT_TABLE } = require('./../models/order-product')
+const { OrderProductSchema, ORDER_PRODUCT_TABLE } = require('./../models/order-product.model')
 
 
 
